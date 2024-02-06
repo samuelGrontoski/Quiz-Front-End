@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <h1>Teste seus conhecimentos</h1>
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Front-End</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Teste seus conhecimentos</h1>
+
         <div id="quiz"></div>
-    
+
         <template>
             <div class="quiz-item">
                 <h3>
@@ -23,6 +31,13 @@
             </div>
         </template>
 
-        <script src="script.js" type="text/javascript"></script>
-    </body>
+        <div id="acertos">
+            <strong>Acertos</strong>
+            <span>0 de 10</span>
+        </div>
+    </main>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
 </html>
